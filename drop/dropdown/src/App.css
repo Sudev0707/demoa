@@ -1,0 +1,33 @@
+.App{
+  width: 350px;
+
+}
+.App select{
+  border-radius: 30px;
+  color: rgb(130, 32, 223);
+  outline: none;
+}
+.App option{
+  border-radius: 30px;
+  color: rgb(223, 61, 32);
+  overflow: hidden;
+  display: inline-block;
+  word-wrap: break-word;
+}
+.App option:hover{
+  background-color: blueviolet;
+}
+
+/* second select */
+.select-top{
+  margin: 10px;
+  width: 200px;
+  padding: 5px;
+  margin-right: 10px;
+  outline: none;
+  border: 1px solid rgb(148, 62, 229);
+}
+.select-top option{
+  width: 100px;
+  word-break: break-all;
+}
